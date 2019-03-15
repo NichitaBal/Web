@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <title>Nichita Baltarete</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+    body{
+      color: darkblue;
+    }
+
+    h1{
+      font-size: 26px;
+      font-weight: normal;
+      text-align: center;
+    }
+    p{
+      color: blue;
+      font-size: 18px;
+      font-style: italic;
+    }
+    a{
+      text-decoration: none;
+      text-transform: uppercase;
+
+        }
+    div{
+      text-align: right;
+
+    }
+    </style>
+  </head>
+  <body>
+    <div class="meniu">
+      <a href="index.html">Despre</a>&nbsp;
+      <a href="cv.html">CV</a>&nbsp;
+      <a href="hobby.html">hobby</a>&nbsp;
+      <a href="contact.html">contact</a>&nbsp;
+      <a href="bucketlist.html">bucket list</a>&nbsp;
+    </div>
+      <h1>Nichita Baltarete</h1>
+      <hr>
+    <h2>CV</h2>
+    <h3>Educatie</h3><br>
+    <div class="CV">
+    <table border="1" >
+      <tr>
+        <th colspan="2">Durata</th>
+        <th>Institutia</th>
+        <th>Specialitate</th>
+        <th>Bursier</th>
+      </tr>
+      <tr>
+        <td>2012</td>
+        <td>2016</td>
+        <td>Lic."Carmen Sylva"</td>
+        <td>Mate-info intensiv info</td>
+        <td>Deocamdata nu</td>
+      </tr>
+    </table>
+    <form action="prelucrare.php" method="post">
+      <label>
+      Din:<input type="date"><br>
+    </label>
+    <label>
+      Anul absolvirii: <input type="number" min="1990" max="2016"
+      placeholder="introduceti anul absolvirii"><br>
+    </label>
+      <label>
+      Institutia:<input type="text" placeholder="scrieti institutia"><br>
+    </label>
+      <label>
+      Diploma:<input type="text"><br>
+    </label>
+      Bursier:
+      <label>
+      <input type="radio" name="bursier">da
+    </label>
+    <label>
+      <input type="radio" name="bursier">nu
+    </label>
+    <br>
+      <input type="submit" value="Trimite">
+      <input type="reset">
+    <h3>Experienta profesionala</h3><br>
+  </div>
+  </body>
+</html>

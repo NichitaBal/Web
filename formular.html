@@ -1,0 +1,77 @@
+<html>
+  <head><title>FORMULAR</title>
+  <style>
+  body{
+    color: darkblue;
+  }
+
+  h1{
+    font-size: 26px;
+    font-weight: normal;
+    text-align: center;
+  }
+  p{
+    color: blue;
+    font-size: 18px;
+    font-style: italic;
+  }
+  a{
+    text-decoration: none;
+    text-transform: uppercase;
+
+      }
+  div{
+    text-align: right;
+
+  }
+  </style>
+
+
+  </head>
+  <body>
+    <form action="prelucrare.php" method="post">
+      <label>
+      Nume:<input type="text" placeholder="Scrieti numele" autofocus="" required>
+    </label>
+      <br>
+      Parola:<input type="password" placeholder="Introduceti parola"><br>
+      Varsta:<input type="number" min="0" max="110" placeholder="Introduceti varsta"><br>
+      Observatii:
+      <textarea cols="50" rows="5">
+        Lasati un comentariu chiar aici
+      </textarea>
+      <br>
+      Localitate
+      <select>
+        <option>Alegeti orasul</option>
+        <option>Timisoara</option>
+        <option>Resita</option>
+      </select>
+      <br>
+      Sex
+      <label>
+      <input type="radio" name="sex" checked="">Feminin
+    </label>
+    <label>
+      <input type="radio" name="sex">Masculin
+    </label>
+    <br>
+    Culoarea preferata
+    <label>
+    <input type="checkbox" name="culoare" >Rosu
+  </label>
+  <label>
+    <input type="checkbox" name="culoare" checked="">Verde
+  </label>
+  <label>a
+    <input type="checkbox" name="culoare">Albastru
+  </label>
+  <br>
+  <input type="submit" value="Trimite">
+  <input type="reset">
+  <input type="button" value="Calculeaza">
+  <input type="date">
+  <input type="color" >
+    </form>
+  </body>
+</html>
